@@ -13,7 +13,6 @@ class Group(models.Model):
     description = models.TextField()
 
     def __str__(self):
-        """Возврат строкового представления поля title."""
         return self.title
 
 
@@ -36,7 +35,6 @@ class Post(models.Model):
     )
 
     def __str__(self):
-        """Возврат строкового представления поля text."""
         return self.text
 
 

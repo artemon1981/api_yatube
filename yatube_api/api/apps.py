@@ -1,4 +1,3 @@
-"""Приложение api."""
 from django.apps import AppConfig
 
 

@@ -1,4 +1,3 @@
-"""Админ зона."""
 from django.contrib import admin
 
 from .models import Comment, Group, Post
